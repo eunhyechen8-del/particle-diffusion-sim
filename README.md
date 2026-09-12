@@ -5,10 +5,10 @@ A computational physics model simulating particle diffusion and energy configura
 
 **Technical Stack:**
 *   **Language:** Python
-*   **Scientific Libraries:** NumPy, Matplotlib, Math, Random[cite: 2]
+*   **Scientific Libraries:** NumPy, Matplotlib, Math, Random
 *   **Deployment:** UVA Rivanna HPC Cluster (SLURM workload manager)
 
-**Core Simulation Mechanics**
+**Core Simulation Mechanics:**
 *   **HPC Integration:** Utilizes `os` to fetch the `SLURM_JOB_ID` for cluster deployment and applies `matplotlib.use('Agg')` for headless data visualization without a graphical interface.
 *   **Lattice Generation:** Initializes an L x L zero-matrix, randomly distributing an initial particle population based on a set probability density.
 *   **Kinematic Logic:** Particles evaluate up to 6 directional moves per time step. Moves are evaluated using a boundary-aware neighbor-counting algorithm to determine bond energies between adjacent sites.
