@@ -4,7 +4,7 @@
 A computational physics model simulating particle diffusion and energy configuration across an L x L lattice grid over time (represented as steps). This simulation tracks the decay of particle populations and calculates the average energy per particle, modeling how particles interact, annihilate, and reach equilibrium states based on bond energy limits and temperature values.
 
 **Technical Stack:**
-*   **Language:** 
+*   **Language:** Python
 *   **Scientific Libraries:** NumPy, Matplotlib, Math, Random[cite: 2]
 *   **Deployment:** UVA Rivanna HPC Cluster (SLURM workload manager)
 
